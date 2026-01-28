@@ -1,0 +1,16 @@
+level,parent_objective,objective_name,key_metrics,owner,weight
+L1,Company Growth,Increase Revenue 15% YoY,"REV001, REV003",CEO,40
+L1,Company Growth,Achieve 25% EBITDA Margin,PROF003,CEO,35
+L1,Company Growth,Reach 99.9% Platform Reliability,OPS001,CEO,25
+L2,Revenue Excellence,Grow ARR to $72M,REV002,CFO,50
+L2,Revenue Excellence,Reduce CAC by 10%,CUST001,CRO,50
+L2,Operational Excellence,Maintain 99.95% Uptime,OPS001,CTO,60
+L2,Operational Excellence,Reduce Incident Resolution <4hrs,OPS003,CTO,40
+L2,Customer Success,Achieve NPS >55,CUST003,VP CS,50
+L2,Customer Success,Reduce Churn <2.5%,CUST004,VP CS,50
+L3,Sales Efficiency,Generate 850+ MQLs/month,MKT001,CMO,60
+L3,Sales Efficiency,Improve Conversion to 4.5%,MKT002,CMO,40
+L3,Platform Reliability,Response Time <150ms,OPS002,VP Engineering,50
+L3,Platform Reliability,Zero Critical Incidents,OPS003,VP Engineering,50
+L3,Customer Retention,Improve Customer Health Score,"CUST003, CUST002",Director CS,60
+L3,Customer Retention,Proactive Outreach Program,CUST004,Director CS,40

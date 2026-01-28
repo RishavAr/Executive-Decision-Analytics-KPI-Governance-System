@@ -1,0 +1,11 @@
+drift_id,metric_id,drift_type,old_definition,new_definition,change_date,approved_by,impact_on_historical,communication_status
+MD001,REV003,Definition Change,YoY growth including one-time revenue,YoY growth excluding one-time revenue,2024-01-15,CFO,Restated Q1-Q4 2023,Board notified
+MD002,CUST002,Calculation Drift,LTV = ARPU * 36 months,LTV = ARPU * Avg Customer Tenure,2024-02-01,CRO,Restated from Q3 2023,Exec team notified
+MD003,PROF002,Source Change,Op Margin = EBIT / Revenue,Op Margin = EBIT / Revenue (excl. restructuring),2024-03-01,CFO,No restatement needed,Finance team notified
+MD004,CUST001,Methodology Update,CAC = (S&M spend) / new customers,CAC = (S&M spend + overhead allocation) / new customers,2024-04-15,CRO,Restated Q1-Q4 2024,Sales team notified
+MD005,OPS001,Threshold Change,Uptime excludes planned maintenance,Uptime includes planned maintenance,2024-05-01,CTO,Restated from Q1 2024,Engineering notified
+MD006,MKT002,Formula Update,Conversion = Won / Total Opps,Conversion = Won / Qualified Opps only,2024-06-01,CMO,Restated from Q2 2024,Marketing notified
+MD007,EMP002,Source Migration,Turnover = Voluntary exits only,Turnover = All exits (vol + invol),2024-07-01,CHRO,No restatement - forward only,HR team notified
+MD008,FIN001,Aggregation Change,DSO = AR / (Revenue/365),DSO = AR / (Revenue/90) for quarterly,2024-08-01,Controller,Restated from Q1 2024,Finance team notified
+MD009,PROD001,Unit Change,Velocity in hours,Velocity in story points,2024-09-01,CPO,No restatement - different measure,Product team notified
+MD010,DATA001,Weight Adjustment,Equal weight for all dimensions,"Weighted: Accuracy 40%, Completeness 30%, Timeliness 20%, Consistency 10%",2024-10-01,CDO,Restated from Q3 2024,Data Council notified

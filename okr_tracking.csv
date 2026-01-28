@@ -1,0 +1,16 @@
+okr_id,objective,key_result,owner,start_value,target_value,current_value,progress_pct,status,confidence,linked_metric_ids
+OKR-2024-01,Accelerate Revenue Growth,Grow ARR from $55M to $72M,CFO,55.2,72.0,71.2,95,On Track,0.9,REV002
+OKR-2024-02,Accelerate Revenue Growth,Reduce customer churn from 3.2% to 2.5%,VP CS,3.2,2.5,2.5,100,Achieved,1.0,CUST004
+OKR-2024-03,Accelerate Revenue Growth,Increase LTV/CAC ratio from 9.1 to 12.3,CRO,9.1,12.3,11.7,87,At Risk,0.7,"CUST001,CUST002"
+OKR-2024-04,Achieve Operational Excellence,Achieve 99.95% platform uptime,CTO,99.91,99.95,99.96,100,Achieved,1.0,OPS001
+OKR-2024-05,Achieve Operational Excellence,Reduce mean time to resolution to <4 hours,VP Engineering,5.2,4.0,3.9,100,Achieved,1.0,OPS003
+OKR-2024-06,Achieve Operational Excellence,Reduce API response time to <150ms,VP Engineering,185.0,150.0,148.0,100,Achieved,1.0,OPS002
+OKR-2024-07,Build World-Class Culture,Increase employee satisfaction to 8.2+,CHRO,7.4,8.2,8.1,88,At Risk,0.6,EMP001
+OKR-2024-08,Build World-Class Culture,Reduce turnover rate to <12%,CHRO,15.2,12.0,12.1,97,On Track,0.85,EMP002
+OKR-2024-09,Build World-Class Culture,Achieve 95% training completion rate,Director L&D,88.0,95.0,95.0,100,Achieved,1.0,EMP003
+OKR-2024-10,Deliver Product Innovation,Increase sprint velocity by 20%,CPO,38.0,45.0,45.0,100,Achieved,1.0,PROD001
+OKR-2024-11,Deliver Product Innovation,Release 8 major features per quarter,VP Engineering,5.0,8.0,8.0,100,Achieved,1.0,PROD002
+OKR-2024-12,Deliver Product Innovation,Achieve 55+ NPS score,CPO,48.0,55.0,54.0,86,At Risk,0.7,CUST003
+OKR-2024-13,Strengthen Data Foundation,Achieve 92%+ data quality score,CDO,82.0,92.0,91.0,90,On Track,0.8,DATA001
+OKR-2024-14,Strengthen Data Foundation,Reach 98.5% report accuracy,CDO,95.2,98.5,98.2,94,On Track,0.85,DATA002
+OKR-2024-15,Strengthen Data Foundation,Zero critical data incidents,VP Data Engineering,3.0,0.0,0.0,100,Achieved,1.0,DATA001
