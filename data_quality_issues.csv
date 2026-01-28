@@ -1,0 +1,16 @@
+issue_id,metric_id,issue_type,severity,detected_date,resolution_date,status,impact_description,root_cause,assigned_to
+DQ001,REV001,Missing Data,Medium,2024-10-15,2024-10-16,Resolved,Missing 3 days of revenue data from EMEA region,ETL job failed,Finance Analytics
+DQ002,CUST001,Outlier,High,2024-10-18,2024-10-20,Resolved,CAC value 3x higher than historical average - data entry error,Manual entry error,Sales Ops
+DQ003,OPS002,Data Latency,Low,2024-10-20,2024-10-21,Resolved,API response time data delayed by 6 hours,API rate limiting,Platform Team
+DQ004,MKT001,Duplicate Records,Medium,2024-10-22,2024-10-24,Resolved,12 duplicate MQL records from Marketo sync,Webhook duplication,Marketing Ops
+DQ005,CUST002,Schema Drift,High,2024-10-25,2024-10-28,Resolved,LTV calculation changed without documentation,Undocumented change,Data Governance
+DQ006,PROF002,Calculation Error,Critical,2024-11-01,2024-11-02,Resolved,Operating margin formula excluded R&D costs incorrectly,Formula update error,Finance Analytics
+DQ007,EMP002,Source Disconnect,Medium,2024-11-05,2024-11-08,Resolved,Workday connector failed for 2 hours,Auth token expired,People Analytics
+DQ008,PROD001,Incomplete Load,Low,2024-11-08,2024-11-09,Resolved,Sprint data missing for Mobile team,Timeout issue,Product Analytics
+DQ009,FIN001,Freshness,Medium,2024-11-12,2024-11-14,Resolved,DSO data 24 hours stale,Scheduler delay,FP&A Team
+DQ010,DATA001,Validation Failure,High,2024-11-15,,Open,Data quality score validation rules failing,Rule conflict,Data Governance
+DQ011,REV002,Missing Data,Low,2024-11-18,2024-11-19,Resolved,1 day of ARR data missing from APAC,Network timeout,Finance Analytics
+DQ012,CUST003,Outlier,Medium,2024-11-20,,Open,NPS score outlier from test survey responses,Test data leaked,CS Analytics
+DQ013,OPS001,Data Latency,Low,2024-11-22,2024-11-23,Resolved,Datadog metrics delayed 30 minutes,Provider issue,Platform Team
+DQ014,MKT002,Schema Drift,Medium,2024-11-25,,Open,Conversion rate schema changed in Salesforce,Salesforce update,Marketing Ops
+DQ015,EMP001,Source Disconnect,Low,2024-11-28,,Open,Culture Amp integration down for maintenance,Scheduled maintenance,People Analytics

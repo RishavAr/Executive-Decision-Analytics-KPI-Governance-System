@@ -1,0 +1,11 @@
+decision_id,decision_date,decision_title,decision_maker,kpis_considered,expected_impact,actual_impact,confidence_level,status
+DEC-2024-001,2024-01-25,Increase Q2 Marketing Budget by 15%,CEO + CFO,"MKT001, MKT002, CUST001","+20% MQLs, +0.5% conversion","+22% MQLs, +0.6% conversion",High (90%),Completed - Exceeded
+DEC-2024-002,2024-02-15,Accelerate APAC Expansion,CEO + Board,"REV001, REV002, REV003",+$8M ARR from APAC by Q4,+$7.2M ARR from APAC,High (85%),Completed - Met
+DEC-2024-003,2024-03-20,Implement AI-Powered Customer Support,CEO + CTO,"OPS002, OPS003, CUST003","-30% response time, +5 NPS points","-35% response time, +4 NPS points",High (92%),Completed - Exceeded
+DEC-2024-004,2024-04-18,Restructure Sales Territories,CEO + CRO,"MKT002, CUST001, REV002","+15% territory coverage, -$100 CAC","+12% territory coverage, -$80 CAC",Medium (75%),Completed - Partial
+DEC-2024-005,2024-05-22,Launch Enterprise Tier,CEO + CPO,"REV001, REV002, CUST002",+$15M enterprise revenue,In progress - tracking +$12M,Medium (70%),In Progress
+DEC-2024-006,2024-06-15,Hire 50 Additional Engineers,CEO + CTO,"PROD001, PROD002, OPS001",+25% sprint velocity,+22% sprint velocity,High (88%),Completed - Met
+DEC-2024-007,2024-07-25,Acquire DataSync Inc.,CEO + Board,"DATA001, DATA002, REV002",+10 points data quality score,+9 points data quality score,High (85%),Completed - Met
+DEC-2024-008,2024-08-20,Implement Hybrid Work Policy,CEO + CHRO,"EMP001, EMP002, EMP003",+0.5 employee satisfaction,+0.5 employee satisfaction,High (90%),Completed - Met
+DEC-2024-009,2024-09-18,Launch Customer Success Platform,CEO + VP CS,"CUST003, CUST004, CUST002",-0.3% churn rate,-0.4% churn rate,High (88%),Completed - Exceeded
+DEC-2024-010,2024-10-24,Q4 Budget Reallocation,CEO + CFO,"REV001, PROF002, PROF003",Maintain 25% EBITDA while growing revenue,Pending Q4 close,Pending,In Progress

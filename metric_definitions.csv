@@ -1,0 +1,25 @@
+metric_id,metric_name,category,business_unit,owner,data_steward,unit_of_measure,calculation_method,data_source,refresh_frequency,target_q4_2024,criticality
+REV001,Total Revenue,Revenue,Finance,CFO - Sarah Chen,Finance Analytics,USD (Millions),SUM(all_revenue_streams),SAP ERP,Monthly,85.0,Critical
+REV002,Recurring Revenue (ARR),Revenue,Finance,CFO - Sarah Chen,Finance Analytics,USD (Millions),SUM(subscription_revenue),Salesforce,Monthly,72.0,Critical
+REV003,Revenue Growth Rate YoY,Revenue,Finance,CFO - Sarah Chen,Finance Analytics,Percentage,(current_rev - prior_rev) / prior_rev * 100,SAP ERP,Quarterly,15.0,Critical
+PROF001,Gross Profit Margin,Profitability,Finance,CFO - Sarah Chen,Finance Analytics,Percentage,(revenue - cogs) / revenue * 100,SAP ERP,Monthly,68.0,High
+PROF002,Operating Margin,Profitability,Finance,CFO - Sarah Chen,Finance Analytics,Percentage,operating_income / revenue * 100,SAP ERP,Monthly,22.0,High
+PROF003,EBITDA Margin,Profitability,Finance,CFO - Sarah Chen,Finance Analytics,Percentage,(ebit + depreciation + amortization) / revenue * 100,SAP ERP,Monthly,28.0,High
+CUST001,Customer Acquisition Cost (CAC),Customer,Sales,CRO - Michael Torres,Sales Ops,USD,total_sales_marketing_cost / new_customers,Salesforce + Marketo,Monthly,1200.0,High
+CUST002,Customer Lifetime Value (LTV),Customer,Sales,CRO - Michael Torres,Sales Ops,USD,avg_revenue_per_customer * avg_customer_lifespan,Salesforce,Quarterly,15000.0,High
+CUST003,Net Promoter Score (NPS),Customer,Customer Success,VP CS - Lisa Park,CS Analytics,Score (-100 to 100),promoters% - detractors%,Medallia,Quarterly,55.0,Medium
+CUST004,Customer Churn Rate,Customer,Customer Success,VP CS - Lisa Park,CS Analytics,Percentage,churned_customers / total_customers * 100,Salesforce,Monthly,2.5,Critical
+OPS001,System Uptime,Operations,Engineering,CTO - David Kumar,Platform Team,Percentage,uptime_minutes / total_minutes * 100,Datadog,Real-time,99.95,Critical
+OPS002,Average Response Time,Operations,Engineering,CTO - David Kumar,Platform Team,Milliseconds,AVG(response_time_ms),Datadog,Real-time,150.0,High
+OPS003,Incident Resolution Time,Operations,Engineering,CTO - David Kumar,Platform Team,Hours,AVG(time_to_resolution),ServiceNow,Daily,4.0,Medium
+EMP001,Employee Satisfaction Score,People,HR,CHRO - Amanda Foster,People Analytics,Score (1-10),AVG(survey_scores),Workday + Culture Amp,Quarterly,8.2,Medium
+EMP002,Employee Turnover Rate,People,HR,CHRO - Amanda Foster,People Analytics,Percentage,departed_employees / avg_headcount * 100,Workday,Monthly,12.0,High
+EMP003,Training Completion Rate,People,HR,CHRO - Amanda Foster,People Analytics,Percentage,completed_trainings / assigned_trainings * 100,Workday,Monthly,95.0,Medium
+PROD001,Sprint Velocity,Product,Product,CPO - James Wilson,Product Analytics,Story Points,AVG(story_points_completed),Jira,Bi-weekly,45.0,Medium
+PROD002,Release Frequency,Product,Product,CPO - James Wilson,Product Analytics,Releases/Month,COUNT(releases),GitHub,Monthly,8.0,Medium
+FIN001,Days Sales Outstanding (DSO),Finance,Finance,Controller - Robert Kim,FP&A Team,Days,AVG(accounts_receivable / daily_sales),SAP ERP,Monthly,35.0,High
+FIN002,Working Capital Ratio,Finance,Finance,Controller - Robert Kim,FP&A Team,Ratio,current_assets / current_liabilities,SAP ERP,Monthly,2.0,Medium
+MKT001,Marketing Qualified Leads (MQLs),Marketing,Marketing,CMO - Jennifer Lee,Marketing Ops,Count,COUNT(qualified_leads),Marketo,Weekly,850.0,High
+MKT002,Conversion Rate,Marketing,Marketing,CMO - Jennifer Lee,Marketing Ops,Percentage,conversions / total_leads * 100,Salesforce,Monthly,4.5,High
+DATA001,Data Quality Score,Data Governance,Data,CDO - Maria Santos,Data Governance Team,Score (0-100),"weighted_avg(completeness, accuracy, timeliness, consistency)",Monte Carlo,Daily,92.0,High
+DATA002,Report Accuracy Rate,Data Governance,Data,CDO - Maria Santos,Data Governance Team,Percentage,accurate_reports / total_reports * 100,Tableau Server Logs,Daily,98.5,High
