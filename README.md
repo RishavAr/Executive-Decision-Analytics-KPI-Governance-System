@@ -237,23 +237,6 @@ Open `executive_dashboard.html` in any web browser.
 | `data_quality_issues.csv` | 15 | Issue tracking log |
 | `decision_log.csv` | 10 | Strategic decisions |
 
----
-
-## 📝 Resume Bullets
-
-### STAR-Format (Copy-Paste Ready)
-
-**1. KPI Consistency**
-> Eliminated 40% metric inconsistency across 9 business units by designing centralized KPI Governance System with 24 standardized metrics, clear ownership model, and documented calculation methods — reducing executive reporting conflicts from 3+ per quarter to zero
-
-**2. Data Quality**
-> Improved data quality score from 82% to 91% by building real-time anomaly detection framework that identified 15 data issues, achieved 73% resolution rate, and reduced critical incident response time from 48 hours to under 4 hours
-
-**3. OKR Alignment**
-> Achieved 95.8% average OKR progress (53% fully achieved) by implementing 3-level KPI hierarchy cascading company objectives to team-level metrics — creating clear line-of-sight between daily work and strategic goals across 5 departments
-
-**4. Decision Analytics**
-> Enabled 80% decision success rate on 10 strategic initiatives totaling $15M+ investment by creating executive dashboards linking KPIs to business decisions — with 30% of decisions exceeding expected ROI targets
 
 ---
 
@@ -266,38 +249,12 @@ Open `executive_dashboard.html` in any web browser.
 | **Business** | Executive Reporting, OKR Frameworks, Strategic Planning, Decision Support |
 | **Tools** | Pandas, Matplotlib, Chart.js, Git |
 
----
 
-## 💡 Why This Project Matters
-
-This isn't just building dashboards — it's establishing the **organizational framework** for how a company measures and acts on data.
-
-### What Makes It Senior-Level
-
-| Aspect | Junior Approach | This Project (Senior) |
-|--------|-----------------|----------------------|
-| **Scope** | Single dashboard | End-to-end governance system |
-| **Data** | Given clean data | Generated realistic data with quality issues |
-| **Output** | Charts | Frameworks, processes, documentation |
-| **Impact** | Visualize metrics | Enable decision-making |
-| **Ownership** | None defined | Clear accountability model |
-
----
-
-## 📞 Project Info
-
-| Item | Detail |
-|------|--------|
-| **Company** | TechVantage Inc. (Fictitious) |
-| **Data Period** | Q4 2023 - Q4 2024 |
-| **Metrics Tracked** | 24 across 9 categories |
-| **Created** | January 2025 |
 
 ---
 
 <div align="center">
 
-### ⭐ This project demonstrates production-grade KPI governance capabilities suitable for senior data analytics roles
 
 **[View Code](COMPLETE_PROJECT_CODE.py)** • **[View SQL Models](kpi_governance_models.sql)** • **[View Documentation](KPI_Governance_Documentation.md)**
 
